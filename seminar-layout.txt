@@ -1,0 +1,64 @@
+Seminar – A discussion-based training led by an expert on a specific topic.
+1. Navbar
+Top navigation with logo, anchor links (About, Speaker, Agenda, Register), and a standout CTA like “Reserve Your Spot”.
+
+2. Hero Section
+Big headline introducing the seminar topic (e.g., “Master the Art of Leadership”), subheadline, date/time, and a clear CTA button (“Register Now”).
+
+3. About the Seminar
+Brief overview of what the seminar covers, why it's important, and what value attendees will get.
+
+4. Speaker Introduction
+Photo, short bio, credentials, and achievements of the seminar leader to establish authority and credibility.
+
+5. Seminar Agenda
+Timeline or list breaking down the main topics, sessions, and activities happening during the seminar.
+
+6. Who Should Attend
+Define the ideal audience (e.g., managers, HR professionals, entrepreneurs) to help visitors self-identify.
+
+7. Learning Outcomes
+List of key skills, insights, or certifications participants will gain by attending.
+
+8. Seminar Highlights
+Icons or short bullet points showcasing unique features (e.g., live Q&A, hands-on exercises, networking).
+
+9. Seminar Format
+Clarify whether the seminar is in-person, online, hybrid, and any platform details (e.g., Zoom, Teams).
+
+10. Registration Form
+Simple form asking for name, email, organisation (optional), and a button like “Register Free” or “Save My Seat”.
+
+11. Pricing Details (if paid)
+Cost breakdown, early-bird discounts, group pricing, or free access details.
+
+12. Countdown Timer
+Urgency element counting down to the seminar start date to encourage faster sign-ups.
+
+13. Testimonials or Endorsements
+Quotes, star ratings, or short videos from past seminar attendees.
+
+14. Sponsor / Partner Logos (Optional)
+Display logos of any supporting organisations, partners, or sponsors.
+
+15. Bonus Materials
+Mention free resources, slides, e-books, or certificates that participants will receive after attending.
+
+16. FAQs
+Answer common questions about the seminar format, platform, pricing, recordings, technical requirements, etc.
+
+17. Add to Calendar Buttons
+Allow users to easily add the seminar date to Google, Outlook, or Apple calendars.
+
+18. Contact Information
+Provide support email, phone number, or live chat option for any attendee inquiries.
+
+19. Social Sharing Buttons
+Encourage users to share the seminar with friends or colleagues via LinkedIn, Twitter, Facebook, etc.
+
+20. Final CTA Banner
+Motivational final push (e.g., “Don’t Miss Out — Reserve Your Spot Today!”) with a registration button.
+
+21. Footer
+Include logo, navigation links, social media links, privacy policy, terms of service.
+
