@@ -1,0 +1,783 @@
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>119</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>119</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>120</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>120</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>121</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>121</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>122</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>122</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>123</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>123</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>124</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>124</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>125</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>125</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>126</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>126</b><br />
+/*****novel*****/
+/* #novel(novelNavbar) #css starts  */
+.novelNavbar .logo {
+    max-height: 50px
+}
+
+.novelNavbar .navbar-open-icon {
+    display: inline
+}
+
+.novelNavbar .navbar-close-icon {
+    display: none
+}
+
+.novelNavbar .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+    display: none
+}
+
+.novelNavbar .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+    display: inline
+}
+
+.novelNavbar .navbar-light .navbar-toggler {
+    color: #353935;
+    border-color: #353935;
+    font-size: 25px;
+}
+
+.novelNavbar .btn {
+    background-color: #353935;
+    color: white;
+    border: none;
+    font-weight: bold
+}
+
+.novelNavbar .btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* #novel(novelNavbar) #css ends  */
+/*****novel*****/
+
+/*****halt*****/
+/* #halt(haltHero) #css starts  */
+.haltHero .DescriptionHeading {
+    font-size: 35px;
+}
+
+.haltHero .btntwo {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.haltHero .DescriptionPara {
+    font-size: 18px
+}
+
+.haltHero .fa-play-circle {
+    color: #00B3E1;
+}
+
+.haltHero .fa {
+    font-size: 50px;
+}
+
+.haltHero .knowMore {
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 8px;
+    color: #00B3E1
+}
+
+.haltHero .jumbotron {
+    background-color: #E7E8D8;
+    border-radius: 30px
+}
+
+.haltHero .text {
+    color: #00B3E1
+}
+
+.haltHero .image {
+    margin-top: 60px;
+}
+
+/* #halt(haltHero) #css ends  */
+/*****halt*****/
+
+/*****braze*****/
+/* #braze(brazeBanner) #css starts  */
+.brazeBanner .button {
+    background-color: #353935;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.brazeBanner .button:hover {
+    color: #fff;
+}
+
+.brazeBanner .background {
+    position: relative;
+    padding: 100px;
+}
+
+.brazeBanner .background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.moksy.com/templates/default/banner/student-with-laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.6;
+    /* Adjust the opacity here */
+    z-index: -1;
+    /* Ensure the pseudo-element is behind the content */
+}
+
+.brazeBanner .container {
+    position: relative;
+    z-index: 1;
+    /* Ensure the content is above the pseudo-element */
+}
+
+.brazeBanner .heading {
+    margin-bottom: 25px
+}
+
+.brazeBanner .para-custom-class {
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    .brazeBanner .background {
+        padding: 50px;
+    }
+
+    .brazeBanner .heading {
+        font-size: 1.5em;
+    }
+
+    .brazeBanner .para-custom-class {
+        font-size: 1em;
+    }
+
+    .brazeBanner .button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .brazeBanner .background::before {
+        opacity: 0.5 !important;
+    }
+}
+
+/* #braze(brazeBanner) #css ends  */
+/*****braze*****/
+
+/*****finley*****/
+/* #finley(finleyFeature) #css starts */
+.finleyFeature h1 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.finleyFeature .lead {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.finleyFeature a {
+    color: #353935;
+    font-size: 18px;
+}
+
+.finleyFeature a:hover {
+    color: #0056b3;
+}
+
+.finleyFeature h5 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.finleyFeature .img-fluid {
+    max-width: 70px;
+}
+
+
+/* #finley(finleyFeatures) #css starts */
+/*****finley*****/
+
+/*****povex*****/
+/* #povex(povexProduct) #css starts  */
+.povexProduct .product-grid {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.povexProduct .product-grid:hover {
+    box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.15);
+}
+
+.povexProduct .product-grid .product-image {
+
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.povexProduct .product-grid:hover .product-image {
+
+    border: 2px dashed #ed4f4f;
+}
+
+.povexProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.povexProduct .product-grid .product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.povexProduct .product-grid .product-content {
+    padding: 25px 15px 15px;
+}
+
+.povexProduct .product-grid .rating {
+    width: 90px;
+    padding: 0;
+    margin: 0 0 8px;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.povexProduct .product-grid .rating li {
+    font-size: 13px;
+    color: #FFAB00;
+}
+
+.povexProduct .product-grid .title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+    width: calc(100% - 99px);
+    margin: 0 5px 8px 0;
+    display: inline-block;
+}
+
+.povexProduct .product-grid .title a {
+    color: #282828;
+    transition: all 0.3s ease 0s;
+}
+
+.povexProduct .product-grid .title a:hover {
+    color: #ed4f4f;
+}
+
+.povexProduct .product-grid .price {
+    color: #111111;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+
+.povexProduct .product-grid .add-to-cart {
+    color: #ed4f4f;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.06);
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.povexProduct .product-grid .add-to-cart:hover {
+    box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 990px) {
+    .povexProduct .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* #povex(povexProduct) #css ends  */
+/*****povex*****/
+
+/*****sylar*****/
+/* #sylar(sylarService) #css starts */
+.sylarService .service {
+    color: #02d1a1;
+}
+
+.sylarService .link {
+    color: #02d1a1
+}
+
+.sylarService i {
+    font-size: 30px;
+}
+
+/* #sylar(sylarService) #css ends */
+/*****sylar*****/
+
+/*****flair*****/
+/* #flair(flairFilter) #css starts  */
+.flairFilter .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px
+}
+
+.flairFilter .filter {
+    height: 50px;
+    width: 210px;
+    font-size: 15px;
+    font-weight: 400;
+    color: dimgrey;
+    background-color: white;
+    border: 1px solid DimGrey;
+    border-radius: 50px
+}
+
+.flairFilter .filter a {
+    text-decoration: none;
+    color: DimGrey;
+    font-weight: 600
+}
+
+
+.flairFilter .filter:hover {
+    background-color: #353935;
+    border: #353935;
+}
+
+.flairFilter .filter:hover a {
+    color: white
+}
+
+.flairFilter .filter_2:hover a {
+    color: white
+}
+
+.flairFilter i {
+    padding-right: 15px
+}
+
+/* #flair(flairFilter) #css ends  */
+/*****flair*****/
+
+/*****edron*****/
+  /* #edron(edronEvents) #css starts  */
+  .edronEvents a:hover {
+    text-decoration: none;
+}
+
+.edronEvents .timing {
+    width: 150px;
+    text-align: center;
+}
+
+.edronEvents .round {
+    width: 15px;
+    height: 15px;
+    background-color: #02d1a1;
+    margin-top: -6px;
+}
+
+.edronEvents .task {
+    font-weight: 500;
+    width: 180px;
+    text-align: center;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 768px) {
+    .edronEvents .round {
+        display: none !important; /* Hide green dots on small screens */
+    }
+
+    .edronEvents .timing,
+    .edronEvents .task {
+        width: 100%; /* Full width for timing and task */
+        text-align: center; /* Center-align the text */
+    }
+
+    .edronEvents .my-3 {
+        display: flex;
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center the content */
+    }
+}
+  /* #edron(edronEvents) #css ends  */
+  /*****edron*****/
+
+/*****feats*****/
+/* #feats(featsFaq) #css starts  */
+.featsFaq .btn-link {
+    color: #353935;
+}
+
+.featsFaq .btn-link:hover {
+    color: #007bff;
+}
+
+.featsFaq h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* #feats(featsFaq) #css ends  */
+/*****feats*****/
+
+/*****caul*****/
+/* #caul(caulCTA) #css starts  */
+.caulCTA .fdb-block {
+    padding: 7.5rem 0;
+    background-color: #FFFFFF
+}
+
+.caulCTA .btn {
+    color: #fff;
+    background-color: #353935;
+    border-color: #353935;
+}
+
+/* #caul(caulCTA) #css ends  */
+/*****caul*****/
+
+/*****tat*****/
+/* #tat(tatTeam) #css starts */
+.tatTeam .our-team {
+    text-align: center;
+    background: #353935;
+    transition: all 0.3s ease 0s;
+}
+
+.tatTeam .pic img {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.tatTeam .post-title {
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: capitalize;;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.tatTeam .post {
+    font-size: 13px;
+    font-weight: 500;
+    color: #bbb;
+    display: block;
+    margin: 5px 0 10px 0;
+    text-transform: capitalize;;
+}
+
+.tatTeam .our-team .description {
+    color: #777;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.tatTeam .team_social {
+    list-style: none;
+    border-top: 1px solid #e67e22;
+    padding: 28px 0 20px 0;
+}
+
+.tatTeam .team_social>li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.tatTeam .team_social>li>a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.tatTeam .team_social>li>a:hover {
+    background: #e67e22;
+    border: 1px solid #e67e22;
+}
+
+.tatTeam .our-team:hover {
+    background: #272727;
+    transition: all 0.3s ease 0s;
+}
+
+.tatTeam .our-team:hover .pic {
+    transform: translateY(3px);
+    transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 990px) {
+    .tatTeam .our-team {
+        margin-bottom: 30px;
+    }
+}
+
+/* #tat(tatTeam) #css ends */
+/*****tat*****/
+
+/*****flung*****/
+/* #flung(flungFooter) #css starts  */
+.flungFooter .fdb-block {
+    padding: 1rem 0
+}
+
+.flungFooter h1 {
+    font-size: 28px
+}
+
+.flungFooter .icon {
+    color: #dc3545;
+}
+
+/* #flung(flungFooter) #css ends  */
+/*****flung*****/
+
+
+img.logo, footer .logo {
+    max-height: 100% !important;
+    margin: 0px !important;
+    max-width: 100% !important;
+}
+
+section#cionCTA, section.calltoaction {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+:root {
+  --primary_color: #9B800E;
+  --secondary_color: #ceb341;
+  --tertiary_color: #684d00;
+  --default_color: #f7f7f7;
+  --default_text_color: #212121;
+  --accent_color: #28A745;
+  --alert_color: #DC3545;
+  --warning_color: #FFC107;
+}
+.primary_font-font {
+  font-family: Quicksand;
+  font-style: normal;
+}
+.secondary_font-font {
+  font-family: Oswald;
+  font-style: normal;
+}
+.tertiary_font-font {
+  font-family: Poppins;
+  font-style: normal;
+}
+.default_font-font {
+  font-family: Verdana;
+  font-style: normal;
+}
+body {
+  font-family: Verdana;
+  font-size: 16px;
+  color: #212121;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+a {
+  color: #9B800E;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+a:hover {
+  color: #28A745;
+  text-decoration: underline;
+}
+ul, ol {
+  padding-left: 20px;
+  margin: 0 0 20px 0;
+}
+li {
+  margin-bottom: 10px;
+  font-family: Oswald;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  border: 1px solid #684d00;
+  padding: 10px;
+  text-align: left;
+  font-family: Oswald;
+}
+th {
+  background-color: #ceb341;
+  color: #212121;
+}
+.navbar {
+display: contents !important}
+section.navbar header {
+padding: 20px !important}
+section {
+margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;}
+section.banner {
+margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;}
+section.footer {
+margin: 0px !important; padding: 0px !important;}
+h1 {
+  font-family: Quicksand;
+  font-size: 36px;
+  font-weight: bold;
+  color: #9B800E;
+  margin-bottom: 20px;
+}
+h1.branded {
+  color: var(--primary_color);
+  font-size: calc(36px * 1.2);
+}
+h1.special {
+  color: var(--accent_color);
+  font-style: italic;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: Quicksand;
+  font-size: 30px;
+  font-weight: semi-bold;
+  color: #ceb341;
+  margin-bottom: 18px;
+}
+h2.branded {
+  color: var(--primary_color);
+  font-size: calc(30px * 1.2);
+}
+h2.special {
+  color: var(--accent_color);
+  font-style: italic;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: medium;
+  color: #684d00;
+  margin-bottom: 16px;
+}
+h3.branded {
+  color: var(--primary_color);
+  font-size: calc(24px * 1.2);
+}
+h3.special {
+  color: var(--accent_color);
+  font-style: italic;
+  text-transform: uppercase;
+}
+p {
+  font-family: Oswald;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #212121;
+  margin-bottom: 20px;
+}
+p.branded {
+  color: var(--primary_color);
+}
+p.special {
+  color: var(--accent_color);
+  font-weight: bold;
+}
+.navbar {
+  background-color: #9B800E;
+  font-family: Oswald;
+  color: #212121;
+}
+.navbar.branded {
+  background-color: var(--primary_color);
+}
+.navbar.special {
+  background-color: var(--accent_color);
+}
+a {
+  color: #9B800E;
+  text-decoration: none;
+}
+a.branded {
+  color: var(--primary_color) !important;
+}
+a.special {
+  color: var(--accent_color);
+  text-decoration: underline;
+}
+.primary_button {
+  background-color: #9B800E;
+  color: #f7f7f7;
+}
+button.branded {
+  background-color: var(--primary_color) !important;
+}
+button.special {
+  background-color: var(--accent_color) !important;
+}
+.secondary_button {
+  background-color: #ceb341;
+  color: #f7f7f7;
+}
+button.branded {
+  background-color: var(--primary_color) !important;
+}
+button.special {
+  background-color: var(--accent_color) !important;
+}
