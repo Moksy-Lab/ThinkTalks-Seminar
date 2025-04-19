@@ -1,3 +1,25 @@
+navbar = nooks
+hero = halt
+About the Seminar = x
+teams = tonix
+roadmap = robin
+Who Should Attend = x
+features = florence
+services = slyra
+Seminar Format = x
+subscribe = syrel
+pricing = pyotr
+countdown = cedra
+testimonials = tynex
+clients = codra
+faqs = fun
+Add to Calendar Buttons = x
+Contact Information = x
+socialshare = syver
+cta = cyron
+footers = funny
+
+
 Seminar – A discussion-based training led by an expert on a specific topic.
 1. Navbar
 Top navigation with logo, anchor links (About, Speaker, Agenda, Register), and a standout CTA like “Reserve Your Spot”.
